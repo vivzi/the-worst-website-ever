@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+main {
+    background-color: #EADCA8;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+nav {
+    background-color: #2D93AD;
+    margin: 40px;
+    border: 5px solid #000;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 10px 10px 0 0 #000;
+}
+
+nav .navTitle {
+    min-width: 60%;
+    max-width: 60%;
+    color: #fff;
+    font-size: 36px;
+    padding: 5px;
+    margin: 0;
+}
+
+nav a {
+    align-content: center;
+    font-size: 36px;
+    width: 40%;
+    color: #000;
+    text-decoration: none;
+    padding: 0 1%;
+    justify-content: flex-start;
+}
+
+nav a:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.landing h1 {
+    padding: 0 40px;
+    font-size: 64px;
+    color: #566E3D;
+}
+
+.landing p {
+    padding: 0 40px;
+    font-size: 24px;
+    color: #000;
+}
+
+.productContainer {
+    background-color: #F1B5CB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 243px;
+    height: 255px;
+    margin-left: 40px;
+    border: 5px solid #000;
+    box-shadow: 10px 10px 0 0 #000;
+    position: relative;
+}
+
+.productTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.productContainer img {
+    display: block;
+}
+
+.productDescription {
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
